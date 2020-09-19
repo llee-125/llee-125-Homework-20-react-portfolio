@@ -6,24 +6,6 @@
   box-sizing: border-box;
 }
 
-Link {
-  color: rgb(206, 12, 132);
-  text-decoration: unset;
-}
-
-ul {
-  margin-left: 1.5rem;
-  list-style: none;
-}
-
-/* button,
-input[type="submit"] {
-  border: none;
-  background: none;
-  color: unset;
-  cursor: pointer;
-} */
-
 h1,
 h2,
 h3,
@@ -34,6 +16,7 @@ p,
 ul,
 ol {
   margin: 1em 0;
+  display: flex;
 }
 
 /* general */
@@ -48,10 +31,41 @@ body {
   display: flex;
   text-align: center;
   background-color: lightcoral;
+  text-decoration: none;
 }
 
 #header .title {
   margin: 0;
   padding: 1rem;
   color: #ffffff;
+}
+
+#header .portfolio {
+  color: #ffffff;
+  text-decoration: none !important;
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+button#portfolio {
+  color: transparent;
+  height: 80px;
+  width: 150px;
+  font-size: 1.1rem;
+  padding: 0 1rem;
+  background-color: transparent;
+  margin-left: 900px;
+  border-color: transparent;
+}
+
+button#portfolio:hover {
+  color: white;
+  font-size: 1.1rem;
+  padding: 0 1rem;
+  background-color: pink;
+  margin-left: 900px;
+  border-color: transparent;
 }
